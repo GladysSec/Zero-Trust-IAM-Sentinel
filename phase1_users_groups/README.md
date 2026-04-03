@@ -15,8 +15,8 @@ Create security groups for policy assignment instead of direct user targeting.
 
 | Component | Screenshot |
 |-----------|------------|
-| Users created | `screenshots/users-created.png` |
-| Groups created | `screenshots/groups-created.png` |
+![Users Created](screenshots/users-created.png)
+![Groups Created](screenshots/groups-created.png)
 
 ## Technical Details
 
