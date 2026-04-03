@@ -1,4 +1,4 @@
-# Zero Trust IAM + Microsoft Sentinel Implementation
+# Zero Trust IAM + Microsoft Sentinel
 
 **Risk-Based Policies ▸ Conditional Access ▸ KQL Detection ▸ Playbooks ▸ Workbooks**
 
@@ -8,7 +8,7 @@ TL;DR: Designed and implemented end-to-end Zero Trust IAM security using Microso
 
 ---
 
-## 🟦 Why This Project Matters to IAM + SOC Hiring Managers
+## 🟦 Why This Project Matters to IAM 
 
 Conditional Access is the core enforcement engine of Zero Trust. Microsoft Sentinel is the SOC's central nervous system.  
 Most candidates show only one — this project proves **both**.
@@ -81,6 +81,21 @@ This project matches Microsoft's official Zero Trust model:
 ---
 
 ## 🏗 Architecture
+
+```mermaid
+flowchart TD
+A[Users] --> B[Conditional Access Policies]
+B --> C[MFA Enforcement]
+B --> D[Legacy Auth Block]
+B --> E[Risk-Based MFA]
+E --> F[Microsoft Sentinel]
+F --> G[KQL Detection]
+F --> H[Logic Apps Playbooks]
+F --> I[Sentinel Workbooks]
+G --> J[Security Incidents]
+H --> J
+I --> J
+```
 
 
 ---
@@ -160,10 +175,57 @@ All screenshots available in phase folders under `/screenshots/`.
 ✔ Named locations are required for geo-restriction (planned for v2)  
 ✔ KQL detection rules require tuning to avoid false positives  
 ✔ Logic Apps playbooks need managed identities — no hardcoded credentials  
-✔ Sentinel workbooks are only useful if someone monitors them  
-✔ IAM portfolios MUST provide evidence — not just claims  
+✔  Sentinel workbooks are only useful if someone monitors them
+✔ IAM portfolios MUST provide evidence — not just claims
+
+## 📂 Repo Structure
+
+```
+zero-trust-iam-sentinel/
+│
+├── README.md
+├── .gitignore
+├── LICENSE
+├── SECURITY.md
+│
+├── phase1_users_groups/
+│   ├── README.md
+│   └── screenshots/
+│
+├── phase2_conditional_access/
+│   ├── README.md
+│   └── screenshots/
+│
+├── phase3_detection_engineering/
+│   ├── README.md
+│   ├── KQL_queries/
+│   └── screenshots/
+│
+├── phase4_playbooks/
+│   ├── README.md
+│   └── screenshots/
+│
+└── phase5_workbooks/
+    ├── README.md
+    └── screenshots/
+   ``` 
+---
+
+
 
 ---
 
-## 📂 Repo Structure
+## 🧩 Skills Demonstrated
+
+- Zero Trust access architecture using Microsoft Entra ID  
+- Conditional Access policy design (MFA, legacy block, risk-based)  
+- KQL detection engineering for failed logins and risky users  
+- Microsoft Sentinel analytics rules and incident investigation  
+- Azure Logic Apps playbooks for automated response  
+- Sentinel workbooks for SOC visualization  
+- Break-glass account strategy & privileged access safeguards  
+- Security documentation aligned with enterprise IAM + SOC controls  
+
+---
+
 
