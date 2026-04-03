@@ -52,6 +52,20 @@ Most candidates show only one — this project proves **both**.
 - [Repo Structure](#repo-structure)
 - [Skills Demonstrated](#skills-demonstrated)
 
+  ## 📚 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Zero Trust Requirements](#zero-trust-requirements)
+- [Architecture](#architecture)
+- [Conditional Access Policies](#-conditional-access-policies)
+- [Detection Engineering](#detection-engineering)
+- [Playbooks and Automation](#playbooks-and-automation)
+- [Workbooks and Dashboards](#workbooks-and-dashboards)
+- [Evidence by Phase](#evidence-by-phase)
+- [What I Learned](#what-i-learned)
+- [Repo Structure](#repo-structure)
+- [Skills Demonstrated](#skills-demonstrated)
+
 ---
 
 ## 🎯 Project Overview
