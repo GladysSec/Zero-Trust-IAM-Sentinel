@@ -25,7 +25,7 @@ Visualize security metrics for SOC monitoring and incident response.
 | Visual | Screenshot |
 |--------|------------|
 ![Failed logins timechart](screenshots/workbook-failed-login-trends.png)
-![Top risky users](screenshots/workbook-risky-users)
+![Top risky users](screenshots/workbook-risky-users.png)
 ![Location map](screenshots/workbook-location-map.png)
 ![Incident trend](screenshots/workbook-incident-count.png)
 
