@@ -37,21 +37,6 @@ Most candidates show only one — this project proves **both**.
 
 ---
 
-## 📚 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Zero Trust Requirements](#zero-trust-requirements)
-- [Architecture](#architecture)
-- [Groups Created](#groups-created)
-- [Conditional Access Policies](#conditional-access-policies)
-- [Detection Engineering](#detection-engineering-kql--analytics)
-- [Playbooks & Automation](#playbooks--automation)
-- [Workbooks & Dashboards](#workbooks--dashboards)
-- [Evidence by Phase](#evidence-by-phase)
-- [What I Learned](#what-i-learned)
-- [Repo Structure](#repo-structure)
-- [Skills Demonstrated](#skills-demonstrated)
-
   ## 📚 Table of Contents
 
 - [Project Overview](#project-overview)
@@ -128,7 +113,7 @@ I --> J
 
 ---
 
-## 🔍 Detection Engineering (KQL + Analytics)
+## Detection Engineering (KQL + Analytics)
 
 | Detection | KQL Query | Analytics Rule |
 |-----------|-----------|----------------|
@@ -140,7 +125,7 @@ I --> J
 
 ---
 
-## 🤖 Playbooks & Automation
+## Playbooks & Automation
 
 | Component | Configuration |
 |-----------|---------------|
