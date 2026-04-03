@@ -111,7 +111,6 @@ I --> J
 | **Block Legacy Authentication** | All users (BreakGlass excluded) | Client apps: Exchange ActiveSync, IMAP, POP, SMTP | Block access |
 | **Require MFA for Risky Sign-in** | All users (BreakGlass excluded) | Sign-in risk: Medium + High | Require MFA |
 
-**Named locations (geo-blocking):** Not implemented in this phase. Planned improvement for v2.
 
 ---
 
@@ -154,6 +153,8 @@ I --> J
 
 ## 🧾 Evidence by Phase
 
+All screenshots available in phase folders under `/screenshots/`.
+
 | Phase | Screenshots | Count |
 |-------|-------------|-------|
 | Phase 1: Users & Groups | `users-created.png`, `groups-created.png` | 2 |
@@ -162,8 +163,6 @@ I --> J
 | Phase 4: Playbooks | `playbook-designer.png`, `playbook-run-history.png`, `automation-rule.png` | 3 |
 | Phase 5: Workbooks | `workbook-*.png` (5) | 5 |
 | **Total** | | **27** |
-
-All screenshots available in phase folders under `/screenshots/`.
 
 ---
 
@@ -175,8 +174,7 @@ All screenshots available in phase folders under `/screenshots/`.
 ✔ Named locations are required for geo-restriction (planned for v2)  
 ✔ KQL detection rules require tuning to avoid false positives  
 ✔ Logic Apps playbooks need managed identities — no hardcoded credentials  
-✔  Sentinel workbooks are only useful if someone monitors them
-✔ IAM portfolios MUST provide evidence — not just claims
+✔ Sentinel workbooks are only useful if someone monitors them
 
 ## 📂 Repo Structure
 
