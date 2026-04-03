@@ -35,21 +35,21 @@ Enforce MFA, block legacy authentication, and implement risk-based access contro
 ### Policy 02: Block Legacy Authentication
 | View | Screenshot |
 |------|------------|
-| Overview | `screenshots/ca-block-legacy-overview.png` |
-| Conditions | `screenshots/ca-block-legacy-conditions.png` |
-| Grant | `screenshots/ca-block-legacy-grant.png` |
+![Policy Overview](screenshots/CA-Block-Legacy-Authentication-overview.png)
+![Grant](screenshots/CA-Block-Grant.png)
+![Condition](screenshots/CA-Block-Condition.png)
 
 ### Policy 03: Require MFA for Risky Sign-in
 | View | Screenshot |
 |------|------------|
-| Overview | `screenshots/ca-risky-overview.png` |
-| Conditions | `screenshots/ca-risky-conditions.png` |
-| Grant | `screenshots/ca-risky-grant.png` |
+![Policy Overview](screenshots/CA-Risky-signin-overview.png)
+![Condition](screenshots/CA-risky-signin-condition.png)
+![Grant](screenshots/CA-risky-grant.png)
 
 ### Policy List
 | View | Screenshot |
 |------|------------|
-| All policies | `screenshots/ca-policy-list.png` |
+![Policy](screenshots/CA-policies-together.png)
 
 ## Validation
 - Employee test user: MFA prompted on first sign-in
