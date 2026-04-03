@@ -24,11 +24,10 @@ Visualize security metrics for SOC monitoring and incident response.
 
 | Visual | Screenshot |
 |--------|------------|
-| Full dashboard | `screenshots/workbook-overview.png` |
-| Failed logins timechart | `screenshots/workbook-failed-logins.png` |
-| Top risky users | `screenshots/workbook-risky-users.png` |
-| Location map | `screenshots/workbook-location-map.png` |
-| Incident trend | `screenshots/workbook-incident-trend.png` |
+![Failed logins timechart](screenshots/workbook-failed-login-trends.png)
+![Top risky users](screenshots/workbook-risky-users)
+![Location map](screenshots/workbook-location-map.png)
+![Incident trend](screenshots/workbook-incident-count.png)
 
 ## Sample Query — Failed Logins Timechart
 ```kql
