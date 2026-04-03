@@ -50,4 +50,4 @@ Automate incident response using Logic Apps triggered by Sentinel incidents.
 ## Notes
 
 - Playbook uses managed identity (no hardcoded credentials)
-- Requires Sentinel Contributor role on the workspace
+- Requires Sentinel Contributor role on the workspace.
