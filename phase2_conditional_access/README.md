@@ -26,7 +26,7 @@ Enforce MFA, block legacy authentication, and implement risk-based access contro
 |------|------------|
 ### Require MFA for Employees
 
-![Policy Overview](screenshots/CA-Employees-Policy-Overview.png)
+![Policy Overview](screenshots/CA-Employees-Policy-overview.png)
 ![Assignments](screenshots/CA-Employees-Assignment-tab-included.png)
 ![Assignments](screenshots/CA-Employees-Assignment-tab-excluded.png)
 ![Conditions](screenshots/CA-Employees-condition.png)
