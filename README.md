@@ -113,7 +113,7 @@ I --> J
 
 ---
 
-## Detection Engineering (KQL + Analytics)
+##  Detection Engineering (KQL + Analytics)
 
 | Detection | KQL Query | Analytics Rule |
 |-----------|-----------|----------------|
@@ -125,7 +125,7 @@ I --> J
 
 ---
 
-## Playbooks & Automation
+##  Playbooks & Automation
 
 | Component | Configuration |
 |-----------|---------------|
