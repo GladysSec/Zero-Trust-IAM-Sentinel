@@ -24,10 +24,13 @@ Enforce MFA, block legacy authentication, and implement risk-based access contro
 ### Policy 01: Require MFA for Employees
 | View | Screenshot |
 |------|------------|
-| Overview | `screenshots/ca-employees-overview.png` |
-| Assignments | `screenshots/ca-employees-assignments.png` |
-| Conditions | `screenshots/ca-employees-conditions.png` |
-| Grant | `screenshots/ca-employees-grant.png` |
+### Require MFA for Employees
+
+![Policy Overview](screenshots/CA-Employees-Policy-Overview.png)
+![Assignments](screenshots/CA-Employees-Assignment-tab-included.png)
+![Assignments](screenshots/CA-Employees-Assignment-tab-excluded.png)
+![Conditions](screenshots/CA-Employees-Condition.png)
+![Grant](screenshots/CA-Employees-Grant.png)
 
 ### Policy 02: Block Legacy Authentication
 | View | Screenshot |
