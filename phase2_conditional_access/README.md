@@ -29,7 +29,7 @@ Enforce MFA, block legacy authentication, and implement risk-based access contro
 ![Policy Overview](screenshots/CA-Employees-Policy-Overview.png)
 ![Assignments](screenshots/CA-Employees-Assignment-tab-included.png)
 ![Assignments](screenshots/CA-Employees-Assignment-tab-excluded.png)
-![Conditions](screenshots/CA-Employees-Condition.png)
+![Conditions](screenshots/CA-Employees-condition.png)
 ![Grant](screenshots/CA-Employees-Grant.png)
 
 ### Policy 02: Block Legacy Authentication
