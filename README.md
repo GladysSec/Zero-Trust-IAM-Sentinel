@@ -117,7 +117,7 @@ I --> J
 
 ---
 
-## 🛑 Conditional Access Policies
+##  Conditional Access Policies
 
 | Policy | Assignments | Conditions | Grant |
 |--------|-------------|------------|-------|
