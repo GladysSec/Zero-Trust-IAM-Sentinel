@@ -36,9 +36,9 @@ Automate incident response using Logic Apps triggered by Sentinel incidents.
 
 | Component | Screenshot |
 |-----------|------------|
-| Logic App designer | `screenshots/playbook-designer.png` |
-| Run history (successful) | `screenshots/playbook-run-history.png` |
-| Automation rule | `screenshots/automation-rule.png` |
+![Logic App designer](screenshots/playbook-designer.png)
+![Run history](screenshots/playbook-run-history.png)
+![Automation rule](screenshots/automation-rule.png)
 
 ## Validation
 
